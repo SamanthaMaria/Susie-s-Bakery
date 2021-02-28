@@ -1,0 +1,177 @@
+/*---- Universal Styles ----*/
+
+body {
+    background-color:rgb(241, 241, 241);
+    color: rgb(65, 65, 65);
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    Justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+}
+
+
+h2 {
+    font-size: 4rem;
+    font-family: 'Grand Hotel', cursive;
+}
+
+
+/*---- Header Section ----*/
+header {
+    background-color: rgb(250, 128, 114);
+    width: 100%;
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: 'Grand Hotel', cursive;
+    padding: 15px 0;
+    color: rgb(241, 241, 241);
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 20px 30px;
+}
+
+li a:hover {
+    color: rgb(65, 65, 65);
+}
+
+
+/*---- Mission Section ----*/
+.mission-content {
+    background-image: url(../Resources/images/out-the-oven.jpg);
+    background-position: center;
+    height: 700px;
+    margin: 5px 0;
+}
+
+.mission-content h3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color:rgb(241, 241, 241);
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 12rem;
+    line-height: 3.5rem;
+    width: 100%;
+}
+
+
+/*---- Treats Section ----*/
+.treat-content {
+    margin: 5px 0;
+    padding: 10px;
+    display: block;
+}
+
+.treat-img-section {
+    margin: 20px;
+    display: inline-flex;
+}
+
+figure {
+    margin: 10px;
+}
+
+.treat-img-section img {
+    height: 300px;
+    width: 300px;
+}
+
+
+/*---- About Section ----*/
+.about-container {
+    background-color: rgb(250, 128, 114);
+    margin: 5px 0;
+    flex-flow: column;
+    padding: 20px;
+    color:rgb(241, 241, 241);
+}
+
+.about-content {
+    display: inline-flex;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-content img {
+    width: 300px;
+    height: auto;
+    flex-shrink: 2;
+}
+
+.about-content p {
+    font-size: 1.25rem;
+    width: 300px;
+    padding-top: 10px;
+}
+
+
+/*---- Info Section ----*/
+.info-section {
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.info-section h2 {
+    padding: 20px;
+}
+
+.location-hours-container {
+    background-color: rgb(37, 217, 123);
+    margin: 5px 0;
+    width: 30rem;
+    height: 400px;
+    flex-flow: column;
+}
+
+.location-hours-content {
+    margin: 20px;
+}
+
+.location-hours-content p {
+    font-size: 1.5rem;
+    padding: 20px;
+    line-height: 40px;
+}
+
+.contact-container {
+    background-color: rgb(37, 217, 123);
+    margin: 5px 0;
+    width: 30rem;
+    height: 400px;
+    flex-flow: column;
+}
+
+.contact-content {
+    margin: 40px;
+}
+
+.contact-content p {
+    font-size: 1.5rem;
+    padding: 20px;
+    line-height: 40px;
+}
+
+
+/*---- Footer Section ----*/
+.footer-content {
+    background-color: rgb(241, 241, 241);
+    margin: 15px;
+}
